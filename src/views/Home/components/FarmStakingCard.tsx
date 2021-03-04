@@ -57,14 +57,14 @@ const FarmedStakingCard = () => {
     <StyledFarmStakingCard>
       <CardBody>
         <Heading size="xl" mb="24px">
-          {TranslateString(542, 'Farms & Staking')}
+          Farms & Staking
         </Heading>
         <Block>
-          <Label>MILK to Harvest:</Label>
+          <Label>PIANO to Harvest:</Label>
           <CakeHarvestBalance />
         </Block>
         <Block>
-          <Label>MILK in Wallet:</Label>
+          <Label>PIANO in Wallet:</Label>
           <CakeWalletBalance />
         </Block>
         <Actions>

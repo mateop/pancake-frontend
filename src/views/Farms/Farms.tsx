@@ -14,8 +14,11 @@ import useRefresh from 'hooks/useRefresh'
 import { fetchFarmUserDataAsync } from 'state/actions'
 import { QuoteToken } from 'config/constants/types'
 import FarmCard, { FarmWithStakedValue } from './components/FarmCard/FarmCard'
-import FarmTabButtons from './components/FarmTabButtons'
-import Divider from './components/Divider'
+
+const FatText = styled(Text)`
+  font-weight: 600;
+  color: #fff;
+`
 
 const Farms: React.FC = () => {
   const { path } = useRouteMatch()
@@ -110,9 +113,9 @@ const Farms: React.FC = () => {
           <Heading as="h1" size="xxl" mb="16px">
             Farms
           </Heading>
-          <Text>
+          <FatText>
             Stake LP tokens to earn MILK.
-          </Text>
+          </FatText>
         </div>
       </Hero>
       <div>

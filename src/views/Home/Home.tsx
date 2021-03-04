@@ -54,23 +54,23 @@ const Cards = styled(BaseLayout)`
 
 const FatHeading = styled(Heading)`
   font-weight: 800;
+  color: #fed700;
 `
 
 const FatText = styled(Text)`
   font-weight: 600;
+  color: #fff;
 `
 
 const Home: React.FC = () => {
   return (
     <Page>
       <Hero>
-        <FatHeading as="h1" size="xl" mb="24px" color="secondary">
-          {/* TranslateString(576, 'PancakeSwap') */}
-          MilkSwap
+        <FatHeading as="h1" size="xl" mb="24px" color="primary">
+          MozartSwap
         </FatHeading>
         <FatText>
-          {/* TranslateString(578, 'The #1 AMM and yield farm on Binance Smart Chain.') */}
-          The milkiest AMM and yield farm on Binance Smart Chain.
+            Classiest DEFI project on #BSC
         </FatText>
       </Hero>
       <Cards>

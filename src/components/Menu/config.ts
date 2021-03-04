@@ -30,20 +30,6 @@ const config: MenuEntry[] = [
     icon: 'PoolIcon',
     href: '/pools',
   },
-  {
-    label: 'More',
-    icon: 'MoreIcon',
-    items: [
-      {
-        label: 'Github',
-        href: 'https://github.com/milkswap',
-      },
-      {
-        label: 'Blog',
-        href: 'https://milk-swap.medium.com/',
-      },
-    ],
-  },
 ]
 
 export default config

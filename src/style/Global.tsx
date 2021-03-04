@@ -14,10 +14,6 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     background-color: ${({ theme }) => theme.colors.background};
-    background-image: url('./images/arch-light.svg');
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: contain;
 
     img {
       height: auto;
