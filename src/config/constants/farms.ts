@@ -4,7 +4,7 @@ import { FarmConfig, QuoteToken } from './types'
 const farms: FarmConfig[] = [
   {
     pid: 0,
-    lpSymbol: 'MILK',
+    lpSymbol: 'PIANO',
     lpAddresses: {
       97: '0x26aB5131DD666B4179aC909926ee3C18eE05E470', // MILK
       56: '0x26aB5131DD666B4179aC909926ee3C18eE05E470', // MILK
@@ -19,12 +19,12 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 1,
-    lpSymbol: 'MILK-BNB LP',
+    lpSymbol: 'PIANO-BNB LP',
     lpAddresses: {
       97: '0xDAC965EcF6f44C95e1934Ce311438C3eFF2a17e6', // MILK-BNB LP
       56: '0xDAC965EcF6f44C95e1934Ce311438C3eFF2a17e6', // MILK-BNB LP
     },
-    tokenSymbol: 'MILK',
+    tokenSymbol: 'PIANO',
     tokenAddresses: {
       97: '0x26aB5131DD666B4179aC909926ee3C18eE05E470', // MILK
       56: '0x26aB5131DD666B4179aC909926ee3C18eE05E470', // MILK
@@ -34,7 +34,7 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 2,
-    lpSymbol: 'MILK-BUSD LP',
+    lpSymbol: 'PIANO-BUSD LP',
     lpAddresses: {
       97: '0xDC6252e0D0C265edD682D482c1baf6F917796A04', // MILK-BUSD LP
       56: '0xDC6252e0D0C265edD682D482c1baf6F917796A04', // MILK-BUSD LP
@@ -49,12 +49,12 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 3,
-    lpSymbol: 'MILK-CAKE LP',
+    lpSymbol: 'PIANO-CAKE LP',
     lpAddresses: {
       97: '0xE2DD1214a65a173Dce04372930Fc0a22F8df7f23', // MILK-CAKE LP
       56: '0xE2DD1214a65a173Dce04372930Fc0a22F8df7f23', // MILK-CAKE LP
     },
-    tokenSymbol: 'MILK',
+    tokenSymbol: 'PIANO',
     tokenAddresses: {
       97: '0x26aB5131DD666B4179aC909926ee3C18eE05E470', // MILK
       56: '0x26aB5131DD666B4179aC909926ee3C18eE05E470', // MILK

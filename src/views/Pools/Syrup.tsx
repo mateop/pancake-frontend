@@ -16,6 +16,10 @@ import Page from 'components/layout/Page'
 import Coming from './components/Coming'
 import PoolCard from './components/PoolCard'
 
+const FatText = styled(Text)`
+  font-weight: 600;
+  max-width: 450px;
+`
 
 const Farm: React.FC = () => {
   const { path } = useRouteMatch()
@@ -76,21 +80,13 @@ const Farm: React.FC = () => {
   return (
     <Page>
       <Hero>
-        <img
-          src="/images/bowl.svg"
-          alt="Bowl POOL icon"
-          style={{
-            height: '190px',
-            marginRight: '48px',
-          }}
-        />
         <div>
-          <Heading as="h1" size="xxl" mb="16px">
+          <Heading as="h1" size="xl" mb="24px">
             Pools
           </Heading>
-          <Text>
-            Stake MILK to earn new tokens. You can unstake at any time. Rewards are calculated per block.
-          </Text>
+          <FatText>
+            Stake PIANO to earn new tokens. You can unstake at any time. Rewards are calculated per block.
+          </FatText>
         </div>
       </Hero>
       <FlexLayout>
@@ -114,13 +110,24 @@ const Farm: React.FC = () => {
 
 const Hero = styled.div`
   align-items: center;
-  color: ${({ theme }) => theme.colors.primary};
+  background-repeat: no-repeat;
+  background-position: top center;
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
   justify-content: center;
-  padding: 48px 0;
+  flex-direction: column;
+  margin: auto;
+  margin-bottom: 32px;
+  padding-top: 116px;
+  text-align: center;
+
+  ${({ theme }) => theme.mediaQueries.lg} {
+    background-image: url('/images/header3.png');
+    background-position: left center, right center;
+    background-size: contain;
+    height: 165px;
+    padding-top: 0;
+  }
+
   ul {
     margin: 0;
     padding: 0;

@@ -9,7 +9,6 @@ import TwitterCard from './components/TwitterCard';
 
 const Hero = styled.div`
   align-items: center;
-  background-image: url('/images/pan-bg-mobile.svg');
   background-repeat: no-repeat;
   background-position: top center;
   display: flex;
@@ -21,7 +20,7 @@ const Hero = styled.div`
   text-align: center;
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    background-image: url('/images/bucket.svg'), url('/images/bowl.svg');
+    background-image: url('/images/header3.png');
     background-position: left center, right center;
     background-size: contain;
     height: 165px;
@@ -54,12 +53,10 @@ const Cards = styled(BaseLayout)`
 
 const FatHeading = styled(Heading)`
   font-weight: 800;
-  color: #fed700;
 `
 
 const FatText = styled(Text)`
   font-weight: 600;
-  color: #fff;
 `
 
 const Home: React.FC = () => {
@@ -67,7 +64,7 @@ const Home: React.FC = () => {
     <Page>
       <Hero>
         <FatHeading as="h1" size="xl" mb="24px" color="primary">
-          MozartSwap
+          MozartFinance
         </FatHeading>
         <FatText>
             Classiest DEFI project on #BSC

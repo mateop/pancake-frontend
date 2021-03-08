@@ -1,7 +1,7 @@
 {
-  "short_name": "MilkSwap",
-  "name": "MilkSwap",
-  "description": "MilkSwap, the milkiest exchange on Binance Smart Chain.",
+  "short_name": "MozartSwap",
+  "name": "MozartSwap",
+  "description": "Classiest DEFI project on #BSC",
   "icons": [
     {
       "src": "favicon.png",
@@ -11,6 +11,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#002365",
   "background_color": "#ffffff"
 }

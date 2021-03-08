@@ -20,10 +20,6 @@ const Block = styled.div`
   margin-bottom: 16px;
 `
 
-const CardImage = styled.img`
-  margin-bottom: 16px;
-`
-
 const Label = styled.div`
   color: ${({ theme }) => theme.colors.textSubtle};
   font-size: 14px;

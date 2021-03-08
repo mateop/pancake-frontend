@@ -17,8 +17,7 @@ import FarmCard, { FarmWithStakedValue } from './components/FarmCard/FarmCard'
 
 const FatText = styled(Text)`
   font-weight: 600;
-  color: #fff;
-`
+  `
 
 const Farms: React.FC = () => {
   const { path } = useRouteMatch()
@@ -102,8 +101,8 @@ const Farms: React.FC = () => {
     <Page>
       <Hero>
         <img
-          src="/images/bucket.svg"
-          alt="Bucket icon"
+          src="/images/HEADER2.png"
+          alt="Farm icon"
           style={{
             height: '190px',
             marginRight: '48px',
@@ -114,7 +113,7 @@ const Farms: React.FC = () => {
             Farms
           </Heading>
           <FatText>
-            Stake LP tokens to earn MILK.
+            Stake LP tokens to earn PIANO.
           </FatText>
         </div>
       </Hero>
