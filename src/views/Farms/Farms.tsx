@@ -17,6 +17,7 @@ import FarmCard, { FarmWithStakedValue } from './components/FarmCard/FarmCard'
 
 const FatText = styled(Text)`
   font-weight: 600;
+  font-size: 20px
   `
 
 const Farms: React.FC = () => {
@@ -104,7 +105,7 @@ const Farms: React.FC = () => {
           src="/images/HEADER2.png"
           alt="Farm icon"
           style={{
-            height: '190px',
+            height: '250px',
             marginRight: '48px',
           }}
         />
