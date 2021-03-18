@@ -63,8 +63,8 @@ const Home: React.FC = () => {
   return (
     <Page>
       <Hero>
-        <FatHeading as="h1" size="xl" mb="24px" color="primary">
-          MozartFinance
+        <FatHeading as="h1" size="xxl" mb="24px" color="primary">
+          Mozart Finance
         </FatHeading>
         <FatText>
             Classiest DEFI project on #BSC

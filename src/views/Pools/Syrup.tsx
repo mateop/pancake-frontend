@@ -81,7 +81,7 @@ const Farm: React.FC = () => {
     <Page>
       <Hero>
         <div>
-          <Heading as="h1" size="xl" mb="24px">
+          <Heading as="h1" size="xxl" mb="24px">
             Pools
           </Heading>
           <FatText>
@@ -119,6 +119,7 @@ const Hero = styled.div`
   margin-bottom: 32px;
   padding-top: 116px;
   text-align: center;
+  
 
   ${({ theme }) => theme.mediaQueries.lg} {
     background-image: url('/images/header3.png');
@@ -126,6 +127,8 @@ const Hero = styled.div`
     background-size: contain;
     height: 165px;
     padding-top: 0;
+    max-width: 66.6%;
+    padding-left: 20%;
   }
 
   ul {
