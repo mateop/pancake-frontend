@@ -1870,8 +1870,9 @@
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
 
-"@pancakeswap-libs/uikit@file:.yalc/@pancakeswap-libs/uikit":
+"@pancakeswap-libs/uikit@https://github.com/mozartfinance/uikit":
   version "0.12.0"
+  resolved "https://github.com/mozartfinance/uikit#cd15284071ec89812ccb1040f3e17b5a5aa6ef53"
   dependencies:
     "@rollup/plugin-image" "^2.0.6"
     "@types/lodash" "^4.14.162"

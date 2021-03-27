@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'http://mozartex.bot.hr/',
+        href: 'https://exchange.mozartfinance.io/',
       },
       {
         label: 'Liquidity',
-        href: 'http://mozartex.bot.hr//#/pool',
+        href: 'https://exchange.mozartfinance.io/#/pool',
       },
     ],
   },
@@ -36,7 +36,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: '',
+        href: 'https://github.com/mozartfinance',
       },
       {
         label: 'Blog',
